@@ -41,3 +41,25 @@ OUTPUT:
 
 
 
+Requirements for Movie Genre Classification Web App
+scikit-learn (v1.3.0)
+Used for machine learning tasks including model training (Multinomial Naive Bayes), vectorization, and evaluation.
+
+pandas (v2.0.3)
+For loading, manipulating, and preprocessing the movie dataset.
+
+joblib (v1.3.2)
+To save and load the trained model and TF-IDF vectorizer efficiently.
+
+Flask (v2.3.2)
+The lightweight web framework used to build the web interface for genre prediction.
+
+pyngrok (v5.3.0)
+Allows the Flask web application to be accessed publicly via a secure tunnel (used especially in development or demo environments like Google Colab).
+
+kaggle (v1.6.6)
+Used to download the movie genre dataset directly from Kaggle via API.
+
+ipython (v8.14.0) (optional)
+Enhances the development and interactive experience in notebooks or scripts. Useful during experimentation or testing.
+
